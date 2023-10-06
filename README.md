@@ -4,20 +4,6 @@
 
 This GUI example is designed to perform single point time-correlated single photon counting (TCSPC) measurements and display the resulting point on the phasor plot in real-time.
 
-The GUI is designed for working with a single channel and for using it you have to connect, with a SMA connector, the output of the single photon detector to channel 1 of the data acquisition card.
-
-The complete FLIM kit developed by FLIM LABS for performing Fluorescence Lifetime Spectroscopy and Imaging looks like this:
-
-![FLIM kit](/images/kit_1.jpg "Kit")
-
-1. Fiber-coupled picosecond pulsed laser module
-
-2. FLIM data acquisition card
-
-3. Single-photon SPAD detector
-
-4. FLIM studio software
-
 The Phasor Analysis GUI offers a complete pipeline for single point fluorescence lifetime analysis, starting from the calibration on a reference fluorophore for then analyzing the fluorescence lifetime decay of unknown samples using the TCSPC histogram and the phasor plot.
 
 The TCSPC histogram is obtained by dividing the laser period in 256 time bins  and the single fluorescence photon events falling in each bin, recorded by a detector and time-tagged with tens/hundreds of picoseconds precision by the data acquisition card, are counted and passed to a 2D histogram to reconstruct the profile of the fluorescence lifetime decay curve.
